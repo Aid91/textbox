@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace TextBox
 {
-    public partial class Form1 : Form
+    public partial class TextBoxForm : Form
     {
-        public Form1()
+        public TextBoxForm()
         {
             InitializeComponent();
         }

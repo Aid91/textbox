@@ -1,6 +1,6 @@
 ﻿namespace TextBox
 {
-    partial class Form1
+    partial class TextBoxForm
     {
         /// <summary>
         /// Required designer variable.
