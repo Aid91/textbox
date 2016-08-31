@@ -6,8 +6,11 @@ using System.Text;
 
 namespace TextBox.Data
 {
-    public abstract class Glyph
+    public class Row : Glyph
     {
-        public abstract void Draw(Graphics graphics);
+        public override void Draw(Graphics graphics)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
