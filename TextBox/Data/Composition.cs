@@ -12,5 +12,10 @@ namespace TextBox.Data
         {
             throw new NotImplementedException();
         }
+
+        public override Composition GetComposition()
+        {
+            return this;
+        }
     }
 }

@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using TextBox.Data;
 
 namespace TextBox
 {
@@ -14,6 +15,9 @@ namespace TextBox
         public TextBoxForm()
         {
             InitializeComponent();
+
+            Column column = new Column();
+            column.GetComposition();
         }
     }
 }

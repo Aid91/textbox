@@ -6,7 +6,7 @@ using System.Text;
 
 namespace TextBox.Data
 {
-    public class Row : Glyph
+    public class Row : Composition
     {
         public override void Draw(Graphics graphics)
         {

@@ -6,13 +6,11 @@ using System.Text;
 
 namespace TextBox.Data
 {
-    public abstract class Glyph
+    public class Column : Composition
     {
-        public abstract void Draw(Graphics graphics);
-
-        public virtual Composition GetComposition()
+        public override void Draw(Graphics graphics)
         {
-            return null;
+            throw new NotImplementedException();
         }
     }
 }
