@@ -60,6 +60,38 @@ namespace TextBox.Tests.Data
         }
 
         [Test]
+        public void SetParentToTheRowIfItIsAddedToComposition()
+        {
+            //arrange
+            Glyph composition = new Composition();
+            Glyph row = new Row();
+
+            //act
+            composition.Add(row);
+            Glyph actualResult = row.GetParent();
+
+            //assert
+            Glyph expectedResult = composition;
+            Assert.AreSame(expectedResult, actualResult);
+        }
+
+        [Test]
+        public void SetParentToTheColumnIfItIsAddedToComposition()
+        {
+            //arrange
+            Glyph composition = new Composition();
+            Glyph column = new Column();
+
+            //act
+            composition.Add(column);
+            Glyph actualResult = column.GetParent();
+
+            //assert
+            Glyph expectedResult = composition;
+            Assert.AreSame(expectedResult, actualResult);
+        }
+
+        [Test]
         public void ChangeParentOfTheCharacterIfItIsRemovedFromComposition()
         {
             //arrange
