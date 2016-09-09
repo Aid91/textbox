@@ -9,7 +9,7 @@ using TextBox.Data;
 namespace TextBox.Tests.Data
 {
     [TestFixture]
-    public class GlyphCompositeParentHandling
+    public class GlyphCompositeParentHandlingTests
     {
         [Test]
         public void SetParentToTheCharaterIfItIsAddedToComposition()

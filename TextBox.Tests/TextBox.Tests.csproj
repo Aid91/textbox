@@ -41,7 +41,8 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Data\GlyphCompositeParentHandling.cs" />
+    <Compile Include="Data\CompositionHandlingTests.cs" />
+    <Compile Include="Data\GlyphCompositeParentHandlingTests.cs" />
     <Compile Include="TestClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
