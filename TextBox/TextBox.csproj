@@ -77,7 +77,7 @@
     <Compile Include="Data\Composition.cs" />
     <Compile Include="Data\Glyph.cs" />
     <Compile Include="Data\Polygon.cs" />
-    <Compile Include="Data\Rectangle.cs" />
+    <Compile Include="Data\Rect.cs" />
     <Compile Include="Data\Row.cs" />
     <Compile Include="TextBoxForm.cs">
       <SubType>Form</SubType>

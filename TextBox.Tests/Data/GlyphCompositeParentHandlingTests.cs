@@ -16,7 +16,7 @@ namespace TextBox.Tests.Data
         {
             //arrange
             Glyph composition = new Composition();
-            Glyph character = new Character();
+            Glyph character = new Character('a');
 
             //act
             composition.Add(character);
@@ -48,7 +48,7 @@ namespace TextBox.Tests.Data
         {
             //arrange
             Glyph composition = new Composition();
-            Glyph rectangle = new Rectangle();
+            Glyph rectangle = new Rect();
 
             //act
             composition.Add(rectangle);
@@ -96,7 +96,7 @@ namespace TextBox.Tests.Data
         {
             //arrange
             Glyph composition = new Composition();
-            Glyph character = new Character();
+            Glyph character = new Character('a');
           
             //act
             composition.Add(character);
@@ -130,7 +130,7 @@ namespace TextBox.Tests.Data
         {
             //arrange
             Glyph composition = new Composition();
-            Glyph rectangle = new Rectangle();
+            Glyph rectangle = new Rect();
 
             //act
             composition.Add(rectangle);

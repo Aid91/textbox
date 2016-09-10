@@ -43,7 +43,7 @@ namespace TextBox.Tests.Data
         public void ChecksIfGetCompositeRetrunsNullReferenceForOneCharacter()
         {
             //arrange
-            Glyph character = new Character();
+            Glyph character = new Character('a');
 
             //act
             Glyph actualResult = character.GetComposition();
@@ -71,7 +71,7 @@ namespace TextBox.Tests.Data
         public void ChecksIfGetCompositeRetrunsNullReferenceForOneRectangle()
         {
             //arrange
-            Glyph rectangle = new Rectangle();
+            Glyph rectangle = new Rect();
 
             //act
             Glyph actualResult = rectangle.GetComposition();

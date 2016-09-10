@@ -6,9 +6,14 @@ using System.Text;
 
 namespace TextBox.Data
 {
-    public class Rectangle : Glyph
+    public class Rect : Glyph
     {
         public override void Draw(Graphics graphics)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override RectangleF GetBounds()
         {
             throw new NotImplementedException();
         }

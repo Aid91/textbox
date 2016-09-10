@@ -16,8 +16,14 @@ namespace TextBox
         {
             InitializeComponent();
 
-            Column column = new Column();
-            column.GetComposition();
+           
+
+        }
+
+        protected override void OnPaint(PaintEventArgs e)
+        {
+            Character character = new Character('c');
+            character.Draw(e.Graphics);
         }
     }
 }

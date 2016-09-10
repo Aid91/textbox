@@ -30,5 +30,7 @@ namespace TextBox.Data
         {
             return null;
         }
+
+        public abstract RectangleF GetBounds();
     }
 }

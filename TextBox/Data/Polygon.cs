@@ -12,5 +12,10 @@ namespace TextBox.Data
         {
             throw new NotImplementedException();
         }
+
+        public override RectangleF GetBounds()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

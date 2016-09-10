@@ -34,5 +34,10 @@ namespace TextBox.Data
         {
             return this;
         }
+
+        public override RectangleF GetBounds()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
