@@ -30,7 +30,10 @@ namespace TextBox.Data
 
         public override void Draw(Graphics graphics)
         {
-            graphics.DrawString(_character.ToString(), Font, new SolidBrush(Color.Black), GetBounds());
+            using (Brush blackBrush = new SolidBrush(Color.Black))
+            {
+                graphics.DrawString(_character.ToString(), Font, blackBrush, GetBounds()); 
+            }
         }
 
         public override RectangleF GetBounds()

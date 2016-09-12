@@ -17,6 +17,7 @@ namespace TextBox.Utils
 
         public virtual void Compose()
         {
+          
         }
 
     }

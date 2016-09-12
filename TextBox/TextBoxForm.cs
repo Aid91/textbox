@@ -15,15 +15,14 @@ namespace TextBox
         public TextBoxForm()
         {
             InitializeComponent();
-
-           
-
         }
 
         protected override void OnPaint(PaintEventArgs e)
         {
             Character character = new Character('c');
             character.Draw(e.Graphics);
+            Rect rect = new Rect(20,0,50,20);
+            rect.Draw(e.Graphics);
         }
     }
 }

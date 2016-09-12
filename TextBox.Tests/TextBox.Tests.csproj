@@ -44,7 +44,10 @@
   <ItemGroup>
     <Compile Include="Data\CharacterTests.cs" />
     <Compile Include="Data\CompositionHandlingTests.cs" />
+    <Compile Include="Data\CompositionTests.cs" />
     <Compile Include="Data\GlyphCompositeParentHandlingTests.cs" />
+    <Compile Include="Data\RectTests.cs" />
+    <Compile Include="Data\SimpleCompositorTests.cs" />
     <Compile Include="TestClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
